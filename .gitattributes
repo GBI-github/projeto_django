@@ -1,2 +1,20 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de mídia
+media/
+
+# Arquivos de banco de dados
+db.sqlite3
+
+# Arquivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
