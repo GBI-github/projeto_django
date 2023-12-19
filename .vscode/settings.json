@@ -2,4 +2,10 @@
     "editor.formatOnSave": true,
     "python.formatting.provider": "black",
     "python.analysis.autoImportCompletions": true,
+    "files.associations": {
+        "**/templates/**/*.html":"django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    }
 }
